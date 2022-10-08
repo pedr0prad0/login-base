@@ -1,0 +1,45 @@
+#total {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 200px;
+    display: inline-block;
+}
+
+.inputText {
+    display: inline-block;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    border: 1px solid blue;
+    border-radius: 10%;
+    background-color: rgb(196, 229, 250);
+
+}
+
+input[type=checkbox] {
+    display: inline-block;
+}
+
+input[type=submit] {
+    width: 20x;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+form {
+    border: 1px solid blue;
+    border-radius: 5%;
+    padding: 10px;
+    background-color: rgb(166, 220, 254);
+}

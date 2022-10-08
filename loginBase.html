@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="loginBase.css">
+</head>
+
+<body>
+
+    <div id="total">
+        <img src="logo-base.PNG" class="img" alt="Imagem não encontrada">
+
+        <div class="inputText">
+            <form onsubmit="pegarDados()">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required>
+
+                <label for="lembrar">
+                    <input type="checkbox" value="" id="botao">Lembrar login </label>
+
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+    </div>
+
+    <script src="loginBase.js"></script>
+
+</body>
+
+</html>
